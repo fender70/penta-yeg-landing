@@ -1,0 +1,20 @@
+---
+const services = [
+  { title: "Carpentry", desc: "Precision woodwork for any project." },
+  { title: "Masonry", desc: "Expert brick and stone construction." },
+  { title: "Electrical", desc: "Safe, reliable wiring solutions." },
+];
+---
+<section id="services" class="py-12 bg-gray-100">
+  <div class="container mx-auto text-center">
+    <h2 class="text-4xl font-bold mb-8">Our Services</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      {services.map(service => (
+        <div class="bg-white p-6 rounded shadow">
+          <h3 class="text-2xl font-semibold mb-2">{service.title}</h3>
+          <p>{service.desc}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

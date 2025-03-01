@@ -1,0 +1,20 @@
+---
+---
+<section id="contact" class="py-12 bg-gray-100">
+  <div class="container mx-auto text-center">
+    <h2 class="text-4xl font-bold mb-8">Contact Us</h2>
+    <form netlify name="contact" method="POST" class="max-w-lg mx-auto">
+      <input type="hidden" name="form-name" value="contact" />
+      <div class="mb-4">
+        <input type="text" name="name" placeholder="Your Name" class="w-full p-3 rounded border" required />
+      </div>
+      <div class="mb-4">
+        <input type="email" name="email" placeholder="Your Email" class="w-full p-3 rounded border" required />
+      </div>
+      <div class="mb-4">
+        <textarea name="message" placeholder="Your Message" class="w-full p-3 rounded border" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">Send</button>
+    </form>
+  </div>
+</section>
