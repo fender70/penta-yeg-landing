@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "@astrojs/react": "^4.2.1",
+    "aos": "^2.3.4",
     "astro": "^5.4.1",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "swiper": "^11.2.5"
   },
   "devDependencies": {
     "@astrojs/tailwind": "^6.0.0",

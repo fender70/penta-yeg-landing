@@ -1,75 +1,110 @@
+<!-- src/components/Services.astro -->
 ---
-// src/components/Services.astro
 ---
 
+<!-- What We Offer Section -->
 <section class="py-12 bg-gray-100">
-  <div class="container mx-auto">
-    <h2 class="text-3xl font-bold text-center mb-8">What We Offer</h2>
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-8" data-aos="fade-down">What We Offer</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <!-- Service 1: Certified Professionals -->
-      <div class="service-card bg-white p-6 rounded shadow flex flex-col items-center">
-        <img
-          src="/images/certified-professionals.jpeg"
-          alt="Certified Professionals"
-          class="w-full h-48 object-cover rounded mb-4"
-        />
-        <h3 class="text-xl font-semibold text-center">Certified Professionals</h3>
+      <!-- Asbestos Removal -->
+      <div class="service-card bg-white p-6 rounded shadow flex flex-col items-center" data-aos="fade-up">
+        <img src="/images/asbestos.jpg" alt="Asbestos Removal" class="w-full h-48 object-cover rounded mb-4" />
+        <h3 class="text-xl font-semibold text-center">Asbestos Removal</h3>
         <p class="text-center">
-          All candidates are screened for required certifications to meet your safety and compliance needs.
+          Our team of certified professionals safely removes and disposes of asbestos, ensuring compliance with all regulations and protecting the health of your family or employees.
         </p>
       </div>
 
-      <!-- Service 2: Flexible & Scalable Staffing -->
-      <div class="service-card bg-white p-6 rounded shadow flex flex-col items-center">
-        <img
-          src="/images/flexible-staffing.jpg"
-          alt="Flexible & Scalable Staffing"
-          class="w-full h-48 object-cover rounded mb-4"
-        />
-        <h3 class="text-xl font-semibold text-center">Flexible & Scalable Staffing</h3>
+      <!-- Water Damage Restoration -->
+      <div class="service-card bg-white p-6 rounded shadow flex flex-col items-center" data-aos="fade-up">
+        <img src="/images/water-damage.jpg" alt="Water Damage Restoration" class="w-full h-48 object-cover rounded mb-4" />
+        <h3 class="text-xl font-semibold text-center">Water Damage Restoration</h3>
         <p class="text-center">
-          We adjust staffing levels to match your project timelines, from single projects to multiple sites.
+          We respond quickly to water damage emergencies, using advanced equipment to thoroughly dry and restore your property to its pre-damage condition.
         </p>
       </div>
 
-      <!-- Service 3: Quick Turnaround -->
-      <div class="service-card bg-white p-6 rounded shadow flex flex-col items-center">
-        <img
-          src="/images/quick-turnaround.jpg"
-          alt="Quick Turnaround"
-          class="w-full h-48 object-cover rounded mb-4"
-        />
-        <h3 class="text-xl font-semibold text-center">Quick Turnaround</h3>
+      <!-- Fire Damage Restoration -->
+      <div class="service-card bg-white p-6 rounded shadow flex flex-col items-center" data-aos="fade-up">
+        <img src="/images/fire-damage.jpg" alt="Fire Damage Restoration" class="w-full h-48 object-cover rounded mb-4" />
+        <h3 class="text-xl font-semibold text-center">Fire Damage Restoration</h3>
         <p class="text-center">
-          Fast and efficient staffing solutions for peak demand or emergencies.
+          Our experienced technicians clean, repair, and restore properties affected by fire, minimizing disruption and helping you get back to normal as soon as possible.
         </p>
       </div>
 
-      <!-- Service 4: Flexible Rates -->
-      <div class="service-card bg-white p-6 rounded shadow flex flex-col items-center">
-        <img
-          src="/images/flexible-rates.jpg"
-          alt="Flexible Rates"
-          class="w-full h-48 object-cover rounded mb-4"
-        />
-        <h3 class="text-xl font-semibold text-center">Flexible Rates</h3>
+      <!-- Mold Remediation -->
+      <div class="service-card bg-white p-6 rounded shadow flex flex-col items-center" data-aos="fade-up">
+        <img src="/images/mold-damage.jpg" alt="Mold Remediation" class="w-full h-48 object-cover rounded mb-4" />
+        <h3 class="text-xl font-semibold text-center">Mold Remediation</h3>
         <p class="text-center">
-          Competitive, negotiable rates with a price match guarantee tailored to your needs.
+          We identify and remove mold growth, addressing the source of moisture to prevent future issues and ensure a healthy environment.
         </p>
       </div>
 
-      <!-- Service 5: Dependable Partnership -->
-      <div class="service-card bg-white p-6 rounded shadow flex flex-col items-center">
-        <img
-          src="/images/dependable-partnership.jpg"
-          alt="Dependable Partnership"
-          class="w-full h-48 object-cover rounded mb-4"
-        />
-        <h3 class="text-xl font-semibold text-center">Dependable Partnership</h3>
+      <!-- Ceiling and Flooring Removal -->
+      <div class="service-card bg-white p-6 rounded shadow flex flex-col items-center" data-aos="fade-up">
+        <img src="/images/ceiling-flooring-removal.jpg" alt="Ceiling and Flooring Removal" class="w-full h-48 object-cover rounded mb-4" />
+        <h3 class="text-xl font-semibold text-center">Ceiling and Flooring Removal</h3>
         <p class="text-center">
-          A long-term partner committed to your success with the right people for every project phase.
+          Our skilled workers carefully remove old ceilings and flooring, preparing the space for new installations with minimal mess and disruption.
         </p>
       </div>
     </div>
   </div>
 </section>
+
+<!-- Why Choose Us Section (Grid with two columns) -->
+<section class="py-12 bg-white">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-8" data-aos="fade-down">Why Choose Us</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <!-- Certified Professionals -->
+      <div class="service-card why-choose-us-card bg-gray-100 p-6 rounded shadow flex flex-col items-center" data-aos="fade-up">
+        <img src="/images/certified-professionals.jpeg" alt="Certified Professionals" class="w-full h-48 object-cover rounded mb-4" />
+        <h3 class="text-xl font-semibold text-center">Certified Professionals</h3>
+        <p class="text-center">All candidates are screened for required certifications to meet your safety and compliance needs.</p>
+      </div>
+
+      <!-- Flexible & Scalable Staffing -->
+      <div class="service-card why-choose-us-card bg-gray-100 p-6 rounded shadow flex flex-col items-center" data-aos="fade-up">
+        <img src="/images/flexible-staffing.jpg" alt="Flexible & Scalable Staffing" class="w-full h-48 object-cover rounded mb-4" />
+        <h3 class="text-xl font-semibold text-center">Flexible & Scalable Staffing</h3>
+        <p class="text-center">We adapt to your project needs with scalable staffing solutions.</p>
+      </div>
+
+      <!-- Quick Turnaround -->
+      <div class="service-card why-choose-us-card bg-gray-100 p-6 rounded shadow flex flex-col items-center" data-aos="fade-up">
+        <img src="/images/quick-turnaround.jpg" alt="Quick Turnaround" class="w-full h-48 object-cover rounded mb-4" />
+        <h3 class="text-xl font-semibold text-center">Quick Turnaround</h3>
+        <p class="text-center">Fast and efficient staffing solutions for peak demand or emergencies.</p>
+      </div>
+
+      <!-- Flexible Rates -->
+      <div class="service-card why-choose-us-card bg-gray-100 p-6 rounded shadow flex flex-col items-center" data-aos="fade-up">
+        <img src="/images/flexible-rates.jpg" alt="Flexible Rates" class="w-full h-48 object-cover rounded mb-4" />
+        <h3 class="text-xl font-semibold text-center">Flexible Rates</h3>
+        <p class="text-center">Competitive, negotiable rates with a price match guarantee tailored to your needs.</p>
+      </div>
+
+      <!-- Dependable Partnership -->
+      <div class="service-card why-choose-us-card bg-gray-100 p-6 rounded shadow flex flex-col items-center" data-aos="fade-up">
+        <img src="/images/dependable-partnership.jpg" alt="Dependable Partnership" class="w-full h-48 object-cover rounded mb-4" />
+        <h3 class="text-xl font-semibold text-center">Dependable Partnership</h3>
+        <p class="text-center">A long-term partner committed to your success with the right people for every project phase.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .why-choose-us-card {
+    background-color: #f0f8ff; /* Light blue background */
+  }
+</style>
